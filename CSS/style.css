@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_navegacao {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #DEEAB9;
+    align-items: center;
+    height: 115px;
+}
+
+ul,li {
+    display: inline-block;
+    margin-left: 24px;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+}
+
+.conteudo_principal {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    font-family: Lato;
+}
+
+h1 {
+    color: #006633;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    background-color: #006633;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 8px;
+    color: white;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.apresenta {
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: xx-large;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+iframe {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.nossos_videos {
+    margin-left: 90px;
+    margin-right: auto;
+}
+
+.text_videos {
+    margin-top: 15%;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #4fa7b0;
+}
+
+.videos {
+    margin-right: 10%;
+}
+
+.siga {
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 0;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #4fa7b0;
+}
+
+.redes_sociais {
+    width: 35%;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 20;
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006633;
+    height: 100px;
+    align-items: center;
+}
+
+.texto_rodape {
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: small;
+    color: white;
+}
+
+.rodape_redes {
+    width: 20%;
+}
